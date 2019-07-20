@@ -112,7 +112,7 @@ class Ball:
             pygame.mixer.music.load('beep.wav')
             pygame.mixer.music.play()
 
-            self.canvas.move(self.id,327,220)
+            self.canvas.move(self.id,320,220)
             self.x = 3
 
             self.update_right_score(self.counter_2)
@@ -124,7 +124,7 @@ class Ball:
             pygame.mixer.music.load('beep.wav')
             pygame.mixer.music.play()
 
-            self.canvas.move(self.id,-327,-220)
+            self.canvas.move(self.id,-320,-220)
             self.x = -3
 
             self.update_left_score(self.counter_1)
